@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AMOR FATI</title>
     <link rel="icon" href="./assets/img/logo.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="container">
@@ -32,17 +33,17 @@
     </Nav>
     <main class="mainHome">
         <div class="divMainHome">  
-            <div class="tarjeta">  
+            <div class="tarjeta"data-aos="fade-right" data-aos-duration="3000">  
                 <h5 class="tarjeta__titulo">Teendencia</h5>
                 <p class="tarjeta__desc">Lorem ipsum dolor sit amet.</p>
                 <a href="./pages/productos.html"><img class="tarjeta__img" src="./assets/img/tendencia.jpg" alt=""></a>      
             </div>
-            <div class="tarjeta">  
+            <div class="tarjeta" data-aos="zoom-out" data-aos-duration="3000" >  
                 <h5 class="tarjeta__titulo">Temporada otoño</h5>
                 <p class="tarjeta__desc">Lorem ipsum dolor sit amet.</p>
                 <a href="./pages/ofertas.html"><img class="tarjeta__img" src="./assets/img/xxx.jpg" alt=""></a>      
             </div >
-            <div class="tarjeta">  
+            <div class="tarjeta" data-aos="fade-left" data-aos-duration="3000">  
                 <h5 class="tarjeta__titulo">Temporada invierno</h5>
                 <p class="tarjeta__desc">Lorem ipsum dolor sit amet.</p>
                 <a href="./pages/productos.html"><img class="tarjeta__img" src="./assets/img/temporada otoño.jpg" alt=""></a>      
@@ -58,5 +59,9 @@
             <a href="https://www.whatsapp.com"><img src="./assets/img/redesSociales/wa.png" alt=""></a>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
